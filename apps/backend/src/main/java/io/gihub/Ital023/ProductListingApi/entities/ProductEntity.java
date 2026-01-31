@@ -23,4 +23,8 @@ public class ProductEntity {
     @Column(name = "description")
     private String description;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private CategoryEntity category;
+
 }

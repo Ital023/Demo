@@ -1,10 +1,10 @@
-package io.github.Ital023.ProductListingApi;
+package io.gihub.Ital023.ProductListingApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductListingApiApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

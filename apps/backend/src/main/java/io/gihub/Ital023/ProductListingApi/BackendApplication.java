@@ -1,13 +1,13 @@
-package io.github.Ital023.ProductListingApi;
+package io.gihub.Ital023.ProductListingApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductListingApiApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductListingApiApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }

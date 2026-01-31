@@ -11,8 +11,8 @@ public class ProductEntity {
 
     @Id
     @Column(name = "product_id")
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID productId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long productId;
 
     @Column(name = "name")
     private String name;
